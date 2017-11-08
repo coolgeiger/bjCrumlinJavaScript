@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+	<script type="text/javascript" src="externalHangman2.js"></script>
+    <title>Bodvar Hangman Project 2</title>
+	<link rel="stylesheet" type="text/css" href="hangmanStyle2.css">
+</head>
+<body>
+	<!-- <form id="pizza"> -->
+	<div id="firstDiv">
+	<h3>Hangman Game Version 2</h3>
+	<p>Please press this button to generate a word: </p>
+	<input type="button" 
+		id="firstBtn" value="Select Random Word">
+	
+	</div>
+	<!-- </form>  -->  
+
+
+	<form id="guessWordGradually">
+	<div id="secondDiv">
+	<h4>Your Attempts:</h4>
+	<p>Type next letter and then press button:</p>
+	<input type="text" id="newLetter" value="Type letter here">
+	<input type="button" id="btnLetter" value="Try out the Letter Entered">
+	<br>
+	<p>Progress of guessing the word so far:</p>
+	<p id="paragraphProgressOfWord"></p>
+	<p id="showTheLetter"></p>
+	</div>
+	</form>
+
+	<div id="thirdDiv">
+	<h4>Progress of Hangman Graph:<h4>
+	<img id = "pic" width = "1280" height = "720" alt = "A Hangman image" src="0.jpg">
+	</div>
+
+
+	<div id="fourthDiv">
+	<h4>The Result Word</h4>
+	</div>
+
+	<div id="fifthDiv">
+	<!-- Here, in this div, the result word is to appear in the end -->
+	</div>
+
+	<div id="sixthDiv">
+	<!-- Here, in this div, for experimentation -->
+	</div>
+
+</body>
+</html>

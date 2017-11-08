@@ -1,0 +1,63 @@
+﻿#firstDiv  /* This one is for asking the user to generate a word randomly. */
+{
+    height: 110px;
+    width: 1000px;
+    background-color: powderblue;
+	text-align: center;
+	vertical-align: middle;
+
+	font-weight: bold;
+}
+
+#secondDiv
+{
+    height: 180px;
+    width: 1000px;
+    background-color: pink;
+	text-align: center;
+	/*vertical-align: middle;*/
+
+	font-weight: bold;
+	padding-bottom: 20px;	
+}
+
+#showTheLetter
+{
+	height: 20px;
+	width: 40px;
+	color: green;
+	background-color: magenta;
+	font-weight: bold;
+
+}
+
+#thirdDiv
+{
+	padding: 30px 0px 0px 00px;
+    height: 350px;
+    width: 1000px;
+    background-color: GreenYellow;
+	text-align: center;
+	vertical-align: middle;
+
+	font-weight: bold;
+}
+
+#pic
+{
+	width: 50%;
+	height: 50%;
+}
+
+#fifthDiv /* This one is for showing the correct word at the end. */
+{
+    height: 140px;
+    width: 1000px;
+    background-color: orange;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 30px;
+	font-family: arial;
+
+	font-weight: bold;
+}
